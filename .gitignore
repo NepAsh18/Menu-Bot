@@ -4,7 +4,7 @@ __pycache__/
 *.pyo
 *.pyd
 
-# Virtual environment
+# Virtual environments
 rvenv/
 venv/
 env/
@@ -21,11 +21,14 @@ config.ini
 *.yaml
 *.yml
 
+# ---- FAISS / RAG Index Files ----
+faiss_index/
+*.faiss
+*.pkl
+
 # ---- Database ----
 *.sqlite3
 *.db
-faiss_index/
-*.pkl
 
 # ---- OS Files ----
 .DS_Store
@@ -39,3 +42,10 @@ Thumbs.db
 
 # ---- Logs ----
 *.log
+
+# ---- Python Packages ----
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
