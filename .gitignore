@@ -1,0 +1,41 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+rvenv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# ---- Sensitive / Config Files ----
+.env
+*.env
+config.ini
+*.json
+*.yaml
+*.yml
+
+# ---- Database ----
+*.sqlite3
+*.db
+faiss_index/
+*.pkl
+
+# ---- OS Files ----
+.DS_Store
+Thumbs.db
+
+# ---- IDE / Editor ----
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# ---- Logs ----
+*.log
